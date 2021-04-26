@@ -11,9 +11,3 @@ body {
 canvas {
     position: absolute;
 }
-
-p {
-    text-align: center;
-    font-size: 2em;
-    font-family:  sans-serif, 'Cursive', 'Segoe UI', Tahoma, 'Geneva', Verdana;    
-}
