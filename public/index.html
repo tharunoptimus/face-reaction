@@ -1,25 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Website to detect face emotions"
-    />
-    <link rel="apple-touch-icon" href="logo.png" />
-    <link rel="manifest" href="manifest.json">
-    <title>Face App</title>
-    <script defer src="face-api.min.js"></script>
-    <script defer src="script.js"></script>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
-  <script>
+<!DOCTYPE html><html lang="en">
+<head><meta charset="utf-8" /><link rel="icon" href="logo.png" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="theme-color" content="#000000" /><meta name="description" content="Website to detect face emotions"/><link rel="apple-touch-icon" href="logo.png" /><link rel="manifest" href="manifest.json"><title>Face App</title><script defer src="face-api.min.js"></script><script defer src="script.js"></script></head>
+<body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body>
+<script>
     if('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('./serviceworker.js')
@@ -27,5 +9,5 @@
                     .catch((err) => console.log('Failure: ', err));
             })
         }
-  </script>
+</script>
 </html>
