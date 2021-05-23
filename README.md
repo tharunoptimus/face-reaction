@@ -3,4 +3,4 @@
 <br>
 Open the website in desktop mode. Mobile mode is not responsive. <br>
 Give the site your permission to access the camera.<br>
-Wait for a few seconds and you'll the app's canvas of your emotion. <br>
+Wait for a few seconds and you'll see the app's canvas showing your emotion. <br>
